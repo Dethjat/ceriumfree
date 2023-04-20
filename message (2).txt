@@ -1,5 +1,6 @@
 local plr = game:GetService("Players").LocalPlayer
 local plrName = game:GetService("Players").LocalPlayer.Name
+--[[
 --key system lol
 _G.wl_key = "63y4tghrng"
 
@@ -8,7 +9,7 @@ if (_G.Key == _G.wl_key) then
 else
     plr:Kick("Security Error: Wrong Key!")
 end
-
+--]]
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Tommy1111112/C6F886E94F6FB976/main/orion.lua')))()
 
 print("First Test")
